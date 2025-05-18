@@ -27,6 +27,7 @@ let
 
       packages.all.start = with vimPlugins; [
         nvim-treesitter.withAllGrammars
+        nvim-treesitter-textobjects
         guess-indent-nvim
         oil-nvim
         nvim-lspconfig
@@ -35,6 +36,8 @@ let
         lazydev-nvim
         telescope-nvim
         mini-snippets
+        conform-nvim
+        which-key-nvim
       ];
     };
   };
